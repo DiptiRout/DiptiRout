@@ -1,8 +1,8 @@
 ### Hi there, I'm Diptiranjan 👋
 
 ## I'm an iOS Developer, Gamer and loves to read Manga!
-- 🌱 I’m currently learning everything related to Swift Language 🤣
-- 👯 I’m looking for demos of AR, AI, ML in Swift
+- 🌱 I’m currently learning everything related to Swift/SwiftUI Language 🤣
+- 👯 I’m looking for demos of AR, VR, AI, ML in Swift/SwiftUI
 - ⚡ Fun fact: I love to play DOTA 2 and read MANGA
 
 ### Connect with me:
