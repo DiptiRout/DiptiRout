@@ -1,6 +1,35 @@
 ## Hi there, I'm Diptiranjan 👋
 I'm a passionate Apple Application Developer specializing in Swift and SwiftUI, crafting high-performance Apple applications. Recently, I've begun exploring Flutter to broaden my horizons in cross-platform development.
 
+**Clean Architecture + MVVM**
+```mermaid
+flowchart TD
+    %% ===== Main Layers =====
+    App[App Target] --> AppCoordinator
+    App --> Feature
+    App --> AppUI
+    
+    AppCoordinator --> Feature
+    
+    Feature --> Domain
+    Feature --> AppUI
+    
+    Data --> Domain
+    Data --> Infra
+    
+    %% ===== Style Enforcement =====
+    style Domain stroke:#00aa00,stroke-width:3px
+    style Infra stroke:#ff5555,stroke-width:3px
+    style AppUI stroke:#5555ff,stroke-width:3px
+    
+    %% ===== Legend =====
+    legend[("
+        🟢 Domain: Independent (Pure Swift) | 
+        🔴 Infra: Independent (Raw Services) | 
+        🔵 AppUI: Independent (Atomic Design)
+    ")]
+```
+
 ## What I Do
 ### Apple Developer:
 - I build robust iOS applications using Swift & SwiftUI, and I'm always on the lookout for cutting-edge demos involving AR, VR, AI, ML.
